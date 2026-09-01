@@ -38,14 +38,15 @@ O relatório completo é composto por três páginas principais:
 ## 🖼️ Galeria de Evidências
 
 ### Visão Geral (Sales Report)
-![Sales Report](./assets/print_pagina1.png) 
+![Sales Report](Sales%20Report.png) 
 
 ### Lucro Detalhado
-![Report de Lucro](./assets/print_pagina2.png)
+![Report de Lucro](Lucro%20detalhado.png)
 
 ### Página 3 - Distribuição Geográfica e de Lucros (Autoral)
-![Página 3](./assets/print_pagina3.png)
+![Página 3](Distribuicao%20de%20lucro,%20vendas%20e%20unidades.png)
 
+📄 [Clique aqui para baixar o Relatório em PDF do Projeto](./Desafio%20de%20Projeto%20Power%20BI%20Analyst.pdf)
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
