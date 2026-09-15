@@ -1,54 +1,49 @@
-# 📊 Desafio de Projeto Power BI Analyst — DIO
+# Formação Power BI Analyst — Desafios de Projeto DIO
 
-Repositório dedicado ao desafio prático de criação e customização de relatórios utilizando o **Power BI**, integrado à formação da Digital Innovation One (DIO).
-
----
-
-## 🚀 Sobre o Projeto
-O objetivo deste projeto foi explorar fontes de dados de vendas, estruturar métricas e construir um relatório executivo interativo dividido em páginas temáticas para apoiar a tomada de decisão comercial.
+Repositório dedicado à consolidação dos relatórios e dashboards desenvolvidos durante a formação **Power BI Analyst** na **Digital Innovation One (DIO)**, utilizando a base de dados *Financials*.
 
 ---
 
-## 📑 Estrutura do Relatório
+## Estrutura de Módulos do Repositório
 
-O relatório completo é composto por três páginas principais:
-
-### 1. Sales Report (Página Inicial)
-* **Objetivo:** Apresentar a visão macro do desempenho comercial.
-* **Principais Elementos:** 
-  * Cartões (`Cards`) com indicadores de Total de Vendas, Unidades Vendidas, Descontos e COGS.
-  * Gráfico de linha temporal detalhando a evolução das vendas por mês.
-  * Gráficos de rosca (`Pie/Donut Chart`), barras e mapa de árvore (`Treemap`) cruzando vendas por segmento, produto e país.
-
-### 2. Report de Lucro Detalhado (Página Interativa)
-* **Objetivo:** Analisar a distribuição e a rentabilidade do lucro detalhadamente.
-* **Principais Elementos:**
-  * Gráfico de decomposição (`Decomposition Tree`) avaliando a Soma de Profit por Ano e País.
-  * Gráfico de cascata (`Waterfall Chart`) demonstrando a evolução e impacto dos lucros por trimestre.
-
-### 3. Distribuição de Lucro, Vendas e Unidades (Desenvolvido por Mim) 🎯
-* **Objetivo:** Esta página foi construída seguindo as diretrizes do treinamento prático para aprofundar a análise geográfica e de segmentação.
-* **O que foi feito / Onde cliquei:**
-  * **Criação da Página:** Adicionada uma nova página no Power BI nomeada como "Página 3".
-  * **Gráfico de Pizza (Segmento):** Inserido o visual de pizza para mapear a `Soma de Profit por Segment`, evidenciando o peso expressivo do segmento *Government* (65,04%) frente aos demais.
-  * **Mapas Geográficos:** Inseridos visuais de mapa do Bing para correlacionar espacialmente a `Soma de Sales / Units Sold` e a `Soma de Profit by Country`, permitindo visualizar de forma clara os maiores mercados na América do Norte e Europa.
+| Módulo | Descrição do Projeto | Link de Acesso |
+| :--- | :--- | :--- |
+| **Módulo 02** | Estruturação inicial das Páginas 1 e 2 (Sales Report e Report de Lucro) | 📁 [Acessar Módulo 2](./modulo-02) |
+| **Módulo 03** | Redesenho da Página 3, Bookmarks, KPIs de topo e análise de prejuízo | 📁 [Acessar Módulo 3](./modulo-03) |
 
 ---
 
-## 🖼️ Galeria de Evidências
+## Resumo das Entregas
 
-### Visão Geral (Sales Report)
-![Sales Report](Sales%20Report.png) 
+```text
+projeto-powerbi-dio/
+│
+├── 📁 modulo-02/                # Entrega Inicial
+│   ├── relatorio-vendas-v1.pbix
+│   ├── Desafio de Projeto Power BI Analyst.pdf
+│   └── README.md                # Documentação detalhada do Módulo 2
+│
+├── 📁 modulo-03/                # Entrega Final / Refatorada
+│   ├── relatorio-executivo-financials.pbix
+│   ├── relatorio-executivo-financials.pdf
+│   ├── README.md                # Documentação detalhada das melhorias do Módulo 3
+│   └── assets/                  # Prints em alta resolução
+│       ├── pagina1.png
+│       ├── pagina2.png
+│       └── pagina3.png          # Visualização refatorada com gráfico de barras
+│
+└── README.md                    # Índice geral do repositório
 
-### Lucro Detalhado
-![Report de Lucro](Lucro%20detalhado.png)
-
-### Página 3 - Distribuição Geográfica e de Lucros (Autoral)
-![Página 3](Distribuicao%20de%20lucro,%20vendas%20e%20unidades.png)
-
-📄 [Clique aqui para baixar o Relatório em PDF do Projeto](./Desafio%20de%20Projeto%20Power%20BI%20Analyst.pdf)
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-* **Microsoft Power BI** (Modelagem, Power Query e Criação de Dashboards)
-* **Git e GitHub** (Versionamento e Documentação)
+## Tecnologias e Conceitos Aplicados
+Power BI Desktop: Tratamento no Power Query, DAX e construção de relatórios.
+
+UI/UX em BI: Design de dashboards, alinhamento em grade, contêineres e escolha estratégica de gráficos.
+
+Recursos Avançados: Bookmarks (Indicadores), Painel de Seleção, Filtros Temporais e Decomposição de Dados.
+
+Git & GitHub: Organização profissional de diretórios e documentação em Markdown.
+
+## Autoria
+Desenvolvido por Tulani Souza no decorrer do bootcamp Power BI e SQL Analyst (Universia).
