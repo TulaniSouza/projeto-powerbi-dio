@@ -37,6 +37,17 @@ projeto-powerbi-dio/
 │   ├── Projeto-DIO-mod4.pbit
 │   └── README.md                 # Documentação e respostas técnicas do Módulo 4
 │
+├── 📁 modulo-05/                 # Modelagem Dimensional e Dashboards Avançados
+│   ├── 📁 projeto-01/            # Star Schema - Contexto Professores
+│   │   ├── star_schema.mwb       # Projeto no MySQL Workbench
+│   │   ├── Desafio de modelagem - Dio modulo 5.png
+│   │   └── README.md             # Documentação técnica da modelagem dimensional
+│   │
+│   └── 📁 projeto-02/            # Relatório Financeiro de Vendas e Lucros
+│       ├── Desafio_PowerBI_Financial_Report.pbix
+│       ├── README.md             # Documentação completa do Dashboard (4 páginas)
+│       └── screenshots/          # Capturas de tela (Sales, Profit, Report, Details)
+│
 └── README.md                     # Índice geral do repositório
 ---
 
