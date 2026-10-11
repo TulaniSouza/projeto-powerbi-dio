@@ -6,11 +6,21 @@ Repositório dedicado à consolidação dos relatórios e dashboards desenvolvid
 
 ## Estrutura de Módulos do Repositório
 
+# Formação Power BI Analyst — Desafios de Projeto DIO
+
+Repositório dedicado à consolidação dos relatórios e dashboards desenvolvidos durante a formação **Power BI Analyst** na **Digital Innovation One (DIO)**.
+
+---
+
+## Estrutura de Módulos do Repositório
+
 | Módulo | Descrição do Projeto | Link de Acesso |
 | :--- | :--- | :--- |
 | **Módulo 02** | Estruturação inicial das Páginas 1 e 2 (Sales Report e Report de Lucro) | 📁 [Acessar Módulo 2](./modulo-02) |
 | **Módulo 03** | Redesenho da Página 3, Bookmarks, KPIs de topo e análise de prejuízo | 📁 [Acessar Módulo 3](./modulo-03) |
 | **Módulo 04** | Processamento e Transformação de Dados com Power BI | 📁 [Acessar Módulo 4](./modulo-04) |
+| **Módulo 05** | Modelagem Dimensional (Star Schema) e Dashboards Avançados | 📁 [Acessar Módulo 5](./modulo-05) |
+| **Módulo 06** | Refatoração UX, Análises Avançadas (Top N, Dispersão, Buckets) e Navegabilidade Global | 📁 [Acessar Módulo 6](./modulo-06) |
 
 ---
 
@@ -48,18 +58,25 @@ projeto-powerbi-dio/
 │       ├── README.md             # Documentação completa do Dashboard (4 páginas)
 │       └── screenshots/          # Capturas de tela (Sales, Profit, Report, Details)
 │
+├── 📁 modulo-06/                 # UX, Análises Avançadas e Navegabilidade
+│   └── 📁 projeto-02/            # Relatório Final de Vendas, Lucros e UX
+│       ├── relatorio_vendas_lucros_ux.pbix
+│       ├── README.md             # Documentação do projeto final de UX e Analytics
+│       └── screenshots/          # Capturas de tela das páginas (Home, Vendas, Detalhes, Top N)
+│
 └── README.md                     # Índice geral do repositório
 ---
 
 ## Tecnologias e Conceitos Aplicados
-Power BI Desktop: Tratamento no Power Query, DAX e construção de relatórios.
+Power BI Desktop: Tratamento no Power Query, DAX, medidas calculadas e construção de relatórios.
 
-Banco de Dados: Conexão e integração com banco relacional MySQL via Workbench.
+Banco de Dados: Conexão e integração com banco relacional MySQL via Workbench (Modelagem Dimensional / Star Schema).
 
-UI/UX em BI: Design de dashboards, alinhamento em grade, contêineres e escolha estratégica de gráficos.
+UI/UX em BI: Design de dashboards, alinhamento em grade, contêineres, cantos arredondados, sombras e escolha estratégica de cores.
 
-Recursos Avançados: Bookmarks (Indicadores), Painel de Seleção, Filtros Temporais e Decomposição de Dados.
+Recursos Avançados: Filtros Top N, Gráficos de Dispersão (Scatter Plot), Histogramas por Buckets, Bookmarks (Indicadores), Painel de Seleção e Filtros Temporais.
 
 Git & GitHub: Organização profissional de diretórios e documentação em Markdown.
+
 ## Autoria
-Desenvolvido por Tulani Souza no decorrer do bootcamp Power BI e SQL Analyst (Universia).
+Desenvolvido por Tulani Souza no decorrer do bootcamp Power BI e SQL Analyst.
